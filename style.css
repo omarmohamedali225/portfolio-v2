@@ -23,6 +23,10 @@ body {
   overflow-x: hidden;
   line-height: 1.5;
 }
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
 .canvas-container {
   position: fixed;
   inset: 0;
